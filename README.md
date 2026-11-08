@@ -1,19 +1,21 @@
 # Shahadah Studios — Portfolio
 
-A responsive cyber-inspired portfolio built with React, TypeScript, CSS, and Vite.
+A responsive cyber-inspired portfolio made with plain HTML, CSS, and JavaScript. It includes the existing project and profile links and works as a static site on GitHub Pages—no install, build, or framework required.
 
-## Run locally
+## Preview locally
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
+Open `index.html` in a browser, or run a small local server from the repository root:
 
 ```bash
-npm run build
-npm run preview
+python -m http.server 8000
 ```
 
-The portfolio includes the supplied project and profile links, plus an animated loading screen. The project descriptions are kept intentionally brief so the site doesn't make unsupported claims about them.
+Then visit <http://localhost:8000>.
+
+## Publish with GitHub Pages
+
+1. Open the repository **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select the `main` branch and `/ (root)` folder, then save.
+
+The site entry point is `index.html`; its stylesheet and script are `styles.css` and `script.js` in the repository root.
